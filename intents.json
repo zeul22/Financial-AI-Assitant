@@ -1,0 +1,48 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns": ["Hey","Hello","Hi","hi","HI","What's up","yo","Yo"],
+    "responses": ["Hello Sir!","Hey Anand!"],
+    "context_set": ""
+  },
+  {"tag": "plot_chart",
+    "patterns": ["plot","show chart","chart","ta","graph","plot price","stock graph",""],
+    "responses": ["Plotting the Chart"],
+    "context_set": ""
+  },
+  {"tag": "add_portfolio",
+    "patterns": ["Add","add Stock","add stock","Add a stock to my portfolio","add stocks","a- stock"],
+    "responses": ["Adding the stock"],
+    "context_set": ""
+  },
+  {"tag": "remove_portfolio",
+    "patterns": ["Remove","remove","delete a stock","kill stock","rm stock","remove a stock"],
+    "responses": ["Removing the stock"],
+    "context_set": ""
+  },
+  {"tag": "show_portfolio",
+    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "responses": ["Showing Portfolio"],
+    "context_set": ""
+  },
+  {"tag": "Stock Price",
+    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "responses": ["Showing the Stock Price"],
+    "context_set": ""
+  },
+  {"tag": "portfolio_worth",
+    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "responses": ["Showing Portfolio Worth"],
+    "context_set": ""
+  },
+  {"tag": "portfolio_gains",
+    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "responses": ["Showing Portfolio gains"],
+    "context_set": ""
+  },
+  {"tag": "bye",
+    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "responses": ["Goodbye, have a nice time ahead!"],
+    "context_set": ""
+  }
+]
+}
