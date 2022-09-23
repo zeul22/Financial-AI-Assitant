@@ -25,22 +25,22 @@
     "context_set": ""
   },
   {"tag": "Stock Price",
-    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "patterns": ["Stock Price","st price","stck","stonk","st pr","stock","brief price"],
     "responses": ["Showing the Stock Price"],
     "context_set": ""
   },
   {"tag": "portfolio_worth",
-    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "patterns": ["worth","portfolio worth","pf worth"],
     "responses": ["Showing Portfolio Worth"],
     "context_set": ""
   },
   {"tag": "portfolio_gains",
-    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "patterns": ["gains","show money","portfolio gains","pf profit","$$$","profit"],
     "responses": ["Showing Portfolio gains"],
     "context_set": ""
   },
   {"tag": "bye",
-    "patterns": ["pf","list","portfolio","show my portfolio","tell me about my portfolio","brief me","brief"],
+    "patterns": ["bye","tata","Ciao","bubye","see ya","quit","exit","done"],
     "responses": ["Goodbye, have a nice time ahead!"],
     "context_set": ""
   }
